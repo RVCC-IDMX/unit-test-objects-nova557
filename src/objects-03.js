@@ -23,7 +23,7 @@
  * example: getVolumeOfBox({length: 2.4, width: 3, height: 1.8}) // => 12.96
  */
 function getVolumeOfBox(box) {
-  return +(box.length * box.width * box.height).toFixed(fractionDigits: 2);
+  return +(box.length * box.width * box.height).toFixed(2);
 }
 
 module.exports = {

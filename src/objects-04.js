@@ -74,8 +74,8 @@ function getOneEmployeeName(index) {
  * must use the map() array method
  */
 function getEmployeeNames() {
-    return response.employees.map(callbackfn: (employee) => employee.name);
-  }
+  return response.employees.map((employee) => employee.name);
+}
 
 module.exports = {
   getOneEmployeeName,

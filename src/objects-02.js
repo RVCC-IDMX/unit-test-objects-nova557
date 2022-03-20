@@ -108,7 +108,7 @@ function getColorValue(color) {
  * Or - https://mzl.la/3DnsESS
  */
 function testForColor(color) {
-  return colorHexCodes.hasOwnProperty(v: color);
+  return colorHexCodes.hasOwnProperty(color);
 }
 
 module.exports = {
